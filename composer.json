@@ -1,0 +1,19 @@
+{
+    "name": "challenger/untitled2",
+    "description": "web project",
+    "type": "project",
+    "license": "challenger",
+    "authors": [
+        {
+            "name": "challenger",
+            "email": "challenger@zeouniversity.com"
+        }
+    ],
+    "require": {
+        "symfony/finder": "^3.1",
+        "symfony/console": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {"figureNameSpace\\": "/"}
+    }
+}
